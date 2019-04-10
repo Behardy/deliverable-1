@@ -12,15 +12,15 @@ span{
 color: #ff4850;
 text-decoration: none;
 
-
 }
 
-.item-1{
-    text-decoration-color: #F0ECEE;
+.item-1 ul a:hover {
+  color: #FF4850;
 }
 .item-1 ul a{
   text-decoration: none;
-  color:#CCC;
+  color:#88898B;
+
 }
 
 .item-1 ul{
@@ -39,7 +39,7 @@ button{
   display: block;
   width: 100%;
   font-family: fira sans;
-color: white;
+ color: white;
 }
 
 p{
@@ -54,7 +54,7 @@ h1{
 h4{
   font-family: 'Fira Sans' , sans-serif;
   font-weight: 300;
-  text-decoration-color:
+  color:#88898B;
 }
 header{
   font-family: 'Fira Sans' , sans-serif;
@@ -74,7 +74,9 @@ header{
     width:auto;
     display: inline-block;
   }
-
+button:hover{
+  background-color: #CCC;
+}
   .item-1{
     display: flex;
 align-items: center;
