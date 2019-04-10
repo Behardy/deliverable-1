@@ -1,0 +1,84 @@
+
+body {
+  font-family: Fira Sans;
+}
+header{
+  font-weight: 400;
+}
+
+
+span{
+color: #ff4850;
+
+}
+
+.itme-1{
+    text-decoration-color: #F0ECEE;
+}
+.item-1 ul a{
+  text-decoration: none;
+  text-decoration-color: #F0ECEE;
+
+}
+
+.item-1 ul{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding: 0;
+
+}
+
+button{
+  background-color: #ff4850;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  font-family: fira sans;
+
+}
+
+p{
+  text-align: center;
+}
+h1{
+  font-family: 'Fira Sans' , sans-serif;
+  font-weight: 600;
+  text-align: justify;
+
+}
+h4{
+  font-family: 'Fira Sans' , sans-serif;
+  font-weight: 300;
+  text-decoration-color:
+}
+header{
+  font-family: 'Fira Sans' , sans-serif;
+  font-weight: 400;
+}
+@media only screen and (min-width: 768px){
+  .item-1 ul{ display: block;}
+
+  body{
+    background-image: url(bulldog.jpg);
+    background-image: url(bulldog.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  button{
+    width:auto;
+    display: inline-block;
+  }
+
+  .item-1{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+  }
+
+}
