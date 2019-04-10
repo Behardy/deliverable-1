@@ -1,24 +1,26 @@
 
 body {
   font-family: Fira Sans;
+  text-decoration-color: #F0ECEE;
+    background-color: #F0ECEE;
 }
 header{
   font-weight: 400;
 }
 
-
 span{
 color: #ff4850;
+text-decoration: none;
+
 
 }
 
-.itme-1{
+.item-1{
     text-decoration-color: #F0ECEE;
 }
 .item-1 ul a{
   text-decoration: none;
-  text-decoration-color: #F0ECEE;
-
+  color:#CCC;
 }
 
 .item-1 ul{
@@ -37,7 +39,7 @@ button{
   display: block;
   width: 100%;
   font-family: fira sans;
-
+color: white;
 }
 
 p{
@@ -63,11 +65,10 @@ header{
 
   body{
     background-image: url(bulldog.jpg);
-    background-image: url(bulldog.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-  }
+
+    }
 
   button{
     width:auto;
